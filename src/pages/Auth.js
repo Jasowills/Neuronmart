@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux"; // Add this import
 import { login } from "../redux/actions/authActions"; // Corrected import path
 import "../styles/Auth.css";
-import "../styles/Mediaqueries.css";
+// import "../styles/Mediaqueries.css";
 import logo from "../images/logo.png";
 import Signup from "./Signup";
 import Navbar from "../components/Navbar";

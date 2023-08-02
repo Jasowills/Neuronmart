@@ -25,6 +25,7 @@ function Cart() {
     <div className="body">
       <MiniNav />
       <Navbar />
+      <br/>
       <div className="cart-summary">
         <div className="cart-container">
           <div className="cart-head">

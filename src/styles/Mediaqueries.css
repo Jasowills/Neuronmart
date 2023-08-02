@@ -351,4 +351,11 @@
       width: 80% !important;
       margin-top: 160px !important;
     }
+    #signup{
+      margin-top: 160px;
+    }
+        .cart-item-count{
+          position: relative;
+          left: -7px;
+        }
 }
