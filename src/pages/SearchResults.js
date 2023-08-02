@@ -132,7 +132,7 @@ function SearchResults() {
               className="product-details description"
               id="selected-product-details"
             >
-              <h3>Description: {selectedProduct.description}</h3>
+              <h3>Specs: {selectedProduct.description}</h3>
             </div>
             <div className="product-button">
               <button className="addtocart" onClick={handleAddToCart}>
