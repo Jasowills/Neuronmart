@@ -335,6 +335,8 @@
   }
   #selected-product-details{
     justify-content: space-between;
+    width: 95%;
+    margin: auto;
   }
     .star-wrap {
       display: flex;
