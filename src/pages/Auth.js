@@ -31,25 +31,24 @@ function AuthComponent() {
       return;
     }
 
-     // Dispatch the login action here
+    // Dispatch the login action here
     dispatch(login(formData))
-        .then(() => {
-         toast.loading("Authenticating");
+      .then(() => {
+        toast.loading("Authenticating");
 
-     toast.success("Login successful!");
+        toast.success("Login successful!");
         setTimeout(() => {
           navigate("/");
-        }, 3000); ; // Redirect to the home page after successful login
-   })
-   .catch((error) => {
-     toast.error(error.message || "Could not sign in. Please try again.");
-   })
-  
+        }, 3000); // Redirect to the home page after successful login
+      })
+      .catch((error) => {
+        toast.error(error.message || "Could not sign in. Please try again.");
+      });
   };
   return (
     <div className="body">
       <MiniNav />
-      <Navbar/>
+      <Navbar />
 
       <div className="login-container" id="login">
         <form onSubmit={handleLogin}>

@@ -347,4 +347,8 @@
       justify-content: space-around;
       width: fit-content;
     }
+    .login-container{
+      width: 80% !important;
+      margin-top: 160px !important;
+    }
 }
