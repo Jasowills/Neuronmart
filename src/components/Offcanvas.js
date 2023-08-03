@@ -32,12 +32,10 @@ function OffcanvasMenu({ showOffcanvas, toggleOffcanvas }) {
               <FontAwesomeIcon icon={faTimes} />
             </button>
           </div>
-          <ul
-            className=""
-            id="category-ul"
-          >
+          <ul className="" id="category-ul">
             <Link className="link" to="/electronics">
               <li>
+                &thinsp;
                 <img src={electronics} alt="" />
                 &thinsp;&thinsp; Electronics
               </li>
