@@ -322,7 +322,7 @@
   .category-banner {
     margin-top: 140px;
     position: fixed;
-    z-index: 2;
+    z-index: 1;
   }
   .category-banner h3 {
     font-size: 18px;

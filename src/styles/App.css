@@ -1155,7 +1155,7 @@ justify-content: space-between;
   transition: left 0.3s ease-in-out;
   height: fit-content;
   box-shadow: 0 2px 4px rgba(185, 185, 185, 0.2);
-  z-index: 5;
+  z-index: 6;
 }
 
 .close-button {
@@ -1194,12 +1194,12 @@ justify-content: space-between;
   justify-content: center;
 }
 #category-ul img{
-  width: 50px;
+  width: 40px;
 }
 
 #category-ul li{
-  font-size: 15px;
-    padding: 10px;
+  font-size: 14px !important;
+    padding: 8px;
     height: 50px;
     text-align: center;
     margin-left: -50px !important;
@@ -1209,7 +1209,7 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     color: #005c3d;
-    width: 210px;
+    width: 190px;
       margin-bottom: 10px;
     /* justify-content: center; */
     background-color: #eee;
